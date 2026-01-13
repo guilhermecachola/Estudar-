@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(19, 151, 228);
+}
+
+*{
+    font-family: Helvetica;
+    color: rgb(46, 57, 133);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.formulario{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:20px;
+}
+
+nav div{
+    background-color:beige;
+    padding:10px;
+    border-radius: 5%;
+    border:10px solid ;    
+}
+
+nav div:hover{
+    padding:20px;
+}
